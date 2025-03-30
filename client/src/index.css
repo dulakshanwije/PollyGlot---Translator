@@ -5,6 +5,13 @@
   --dark-blue: #0D182E;
   --light-blue: #1C325F;
   --light-green: #32CD32;
+  --light-grey: #586E88;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
