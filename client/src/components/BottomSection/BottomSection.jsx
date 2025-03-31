@@ -5,18 +5,30 @@ import frFlag from "./../../assets/fr-flag.svg";
 import sendButton from "./../../assets/send-btn.svg";
 import { use, useState } from "react";
 
-export default function BottomSection() {
+export default function BottomSection({ setIsLoading }) {
   const [lang, setLang] = useState("fr");
+  const [text, setText] = useState("");
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const data = {
+      language: lang,
+      text: text,
+    };
+
+    // handleSubmit
   };
 
   return (
     <div className={styles.container}>
-      {console.log(lang)}
       <form onSubmit={handleSubmit}>
         <div className={styles.inputText}>
-          <input type="text" />
+          <input
+            type="text"
+            required={true}
+            onChange={(e) => setText(e.target.value)}
+          />
           <button type="submit">
             <img src={sendButton} alt="" />
           </button>

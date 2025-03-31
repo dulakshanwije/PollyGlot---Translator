@@ -1,0 +1,19 @@
+.containerUser {
+    height: fit-content;
+    width: 80%;
+    background-color: var(--msg-green);
+    padding: 8px;
+    border-radius: 2px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.containerSystem {
+    height: fit-content;
+    width: 80%;
+    background-color: var(--msg-blue);
+    color: white;
+    padding: 8px;
+    border-radius: 10px 2px 10px 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
