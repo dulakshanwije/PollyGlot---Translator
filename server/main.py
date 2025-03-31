@@ -70,11 +70,11 @@ def translate():
         messages=[
             {
                 "role":"system",
-                "content":"Language translating expert. When text given in English need to translate that to Spanish, French or Sinhala. One of the given three languages will provide with the message."
+                "content":"Language translating expert. When text given in English need to translate that to Spanish, French or Sinhala. Return only the translated text, with no additional meta text or description."
             },
             {
                 "role": "user",
-                "content": f"{data_raw}"
+                "content": f"You are a language translation expert. Please translate the word '{data_raw['text']}' into {data_raw['language']}. Return only the translated text, without any additional meta text or description."
             }
         ]
     )
