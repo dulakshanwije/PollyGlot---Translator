@@ -2,6 +2,8 @@
 
 🌍 **PollyGlot** is an AI-powered language translator built using **ReactJS, Flask, and OpenAI API**.
 
+📺 Built as part of the **Scrimba AI Engineering Course**.
+
 ## 📺 Demo Video
 [![Watch the video](https://img.youtube.com/vi/koOmWRdsSg8/maxresdefault.jpg)](https://www.youtube.com/watch?v=koOmWRdsSg8)
 
