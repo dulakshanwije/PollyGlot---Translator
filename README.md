@@ -26,7 +26,7 @@
 
 2. **Backend Setup (Flask)**
    ```sh
-   cd backend
+   cd server
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
@@ -35,7 +35,7 @@
 
 3. **Frontend Setup (ReactJS)**
    ```sh
-   cd frontend
+   cd client
    npm install
    npm run dev
    ```
